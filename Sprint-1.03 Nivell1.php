@@ -23,7 +23,7 @@ echo "<h4>" . "Exercici 3" . "</h4>";
 $paraules = ["gat","gos","gorila","iguana","guacamai", "cangur","orangutan","pingui"];
 $caracter = "g";
 
-function conteCaracter ($paraules, $caracter) {
+function conteCaracter (array $paraules, string $caracter): string {
     foreach ($paraules as $paraula) {
         if (strpos($paraula, $caracter) === false) {
         return "False";
