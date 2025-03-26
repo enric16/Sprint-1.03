@@ -3,11 +3,9 @@
 echo "<h4>" . "Exercici 1" . "</h4>";
 $numeros = [1,3,5,7,9];
 
-echo $numeros [0] . "<br>";
-echo $numeros [1] . "<br>";
-echo $numeros [2] . "<br>";
-echo $numeros [3] . "<br>";
-echo $numeros [4] . "<br>";
+foreach ($numeros as $numero) {
+    echo $numero.PHP_EOL;
+}
 
 //EXERCICI 2
 echo "<h4>" . "Exercici 2" . "</h4>";
@@ -23,13 +21,13 @@ echo "<h4>" . "Exercici 3" . "</h4>";
 $paraules = ["gat","gos","gorila","iguana","guacamai", "cangur","orangutan","pingui"];
 $caracter = "g";
 
-function conteCaracter (array $paraules, string $caracter): string {
+function conteCaracter (array $paraules, string $caracter): bool {
     foreach ($paraules as $paraula) {
         if (strpos($paraula, $caracter) === false) {
-        return "False";
+        return false;
         }
     }
-    return "True";
+    return true;
 }
 
 echo conteCaracter ($paraules,$caracter);
