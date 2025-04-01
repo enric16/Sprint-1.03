@@ -1,21 +1,30 @@
-PHP Exercises Repository 1.3_Layout-PHP
+**PHP Exercises Repository 1.3_Layout-PHP**
 
-📌 Description
+📌 **Description**
+
 This repository contains exercises designed to test knowledge of arrays in PHP.
 The exercises are divided into two directories based on difficulty level.
 
 Topics Covered:
-· Associative arrays
-· Array-related functions
 
-📁 Repository Structure
+ · Associative arrays
+
+ · Array-related functions
+
+📁 **Repository Structure**
+
  level1 - Beginner exercises on arrays
+ 
  level2 - More complex exercises on associative arrays and array manipulation functions
  
-🛠️ Technologies Used
+🛠️ **Technologies Used**
+
 PHP 8.2
+
 Visual Studio Code
+
 XAMPP (for local development)
+
 Git & GitHub (for version control)
 
 👤 Author: Enric Salvador
