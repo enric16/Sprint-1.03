@@ -1,4 +1,4 @@
-**PHP Exercises Repository 1.3_Layout-PHP**
+<h1>PHP Exercises Repository 1.03</h1>
 
 📌 **Description**
 
@@ -10,13 +10,15 @@ Topics Covered:
  · Associative arrays
 
  · Array-related functions
+___
 
 📁 **Repository Structure**
 
  level1 - Beginner exercises on arrays
  
  level2 - More complex exercises on associative arrays and array manipulation functions
- 
+___
+
 🛠️ **Technologies Used**
 
 PHP 8.2
@@ -26,5 +28,6 @@ Visual Studio Code
 XAMPP (for local development)
 
 Git & GitHub (for version control)
+___
 
 👤 Author: Enric Salvador
