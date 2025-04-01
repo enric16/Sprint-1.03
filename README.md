@@ -3,19 +3,16 @@
 ## 📌 **Description**
 
 This repository contains exercises designed to test knowledge of arrays in PHP.
-The exercises are divided into two directories based on difficulty level.
 
-Topics Covered:
+#### Topics Covered:
 
- · Associative arrays
-
- · Array-related functions
+ · Creating and using arrays.
+ 
+ · Operating with arrays.
 
 ## 📁 **Repository Structure**
 
- level1 - Beginner exercises on arrays
- 
- level2 - More complex exercises on associative arrays and array manipulation functions
+ Level1 - Beginner exercises on arrays
 
 ## 🛠️ **Technologies Used**
 
